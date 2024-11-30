@@ -3,14 +3,14 @@ SUDOKU FILETYPE
 
 ## Structure
 ### HEADER
-- [ ] Data length
-- [ ] HASH
-- [ ] SUD Version
-- [ ] Options
+- [ ] SUD Version (2 Bytes)
+- [ ] Data length (2 Bytes)
 
 ### BODY
 - [ ] Title
 - [ ] Author
 - [ ] Rules (Optional)
-- [ ] Field
-- [ ] Legend
+- [ ] Board
+
+### Footer
+- [ ] CRC Checksum
